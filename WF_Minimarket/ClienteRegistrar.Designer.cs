@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.gbRegistroCliente = new System.Windows.Forms.GroupBox();
+            this.cmboxRegisCliente = new System.Windows.Forms.ComboBox();
             this.btnRegisCliente = new System.Windows.Forms.Button();
             this.txtRegisApellidosCliente = new System.Windows.Forms.TextBox();
             this.txtRegisCelularCliente = new System.Windows.Forms.TextBox();
@@ -41,7 +42,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmboxRegisCliente = new System.Windows.Forms.ComboBox();
             this.gbRegistroCliente.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,6 +67,29 @@
             this.gbRegistroCliente.TabIndex = 2;
             this.gbRegistroCliente.TabStop = false;
             this.gbRegistroCliente.Text = "Registro Cliente";
+            // 
+            // cmboxRegisCliente
+            // 
+            this.cmboxRegisCliente.AutoCompleteCustomSource.AddRange(new string[] {
+            "Cedula",
+            "Pasaporte",
+            "PPT",
+            "PEP",
+            "CE",
+            "Otro"});
+            this.cmboxRegisCliente.FormattingEnabled = true;
+            this.cmboxRegisCliente.Items.AddRange(new object[] {
+            "Cedula",
+            "Pasaporte",
+            "PPT",
+            "PEP",
+            "CE",
+            "Otro"});
+            this.cmboxRegisCliente.Location = new System.Drawing.Point(173, 54);
+            this.cmboxRegisCliente.Name = "cmboxRegisCliente";
+            this.cmboxRegisCliente.Size = new System.Drawing.Size(256, 30);
+            this.cmboxRegisCliente.TabIndex = 19;
+            this.cmboxRegisCliente.SelectedIndexChanged += new System.EventHandler(this.cmboxRegisCliente_SelectedIndexChanged);
             // 
             // btnRegisCliente
             // 
@@ -174,28 +197,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Tipo Documento:";
             // 
-            // cmboxRegisCliente
-            // 
-            this.cmboxRegisCliente.AutoCompleteCustomSource.AddRange(new string[] {
-            "Cedula",
-            "Pasaporte",
-            "PPT",
-            "PEP",
-            "CE",
-            "Otro"});
-            this.cmboxRegisCliente.FormattingEnabled = true;
-            this.cmboxRegisCliente.Items.AddRange(new object[] {
-            "Cedula",
-            "Pasaporte",
-            "PPT",
-            "PEP",
-            "CE",
-            "Otro"});
-            this.cmboxRegisCliente.Location = new System.Drawing.Point(173, 54);
-            this.cmboxRegisCliente.Name = "cmboxRegisCliente";
-            this.cmboxRegisCliente.Size = new System.Drawing.Size(256, 30);
-            this.cmboxRegisCliente.TabIndex = 19;
-            // 
             // ClienteRegistrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -204,6 +205,7 @@
             this.Controls.Add(this.gbRegistroCliente);
             this.Name = "ClienteRegistrar";
             this.Text = "ClienteRegistrar";
+            this.Load += new System.EventHandler(this.ClienteRegistrar_Load);
             this.gbRegistroCliente.ResumeLayout(false);
             this.gbRegistroCliente.PerformLayout();
             this.ResumeLayout(false);

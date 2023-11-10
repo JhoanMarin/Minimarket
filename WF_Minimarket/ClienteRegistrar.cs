@@ -38,6 +38,16 @@ namespace WF_Minimarket
 
 
         }
+
+        private void ClienteRegistrar_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmboxRegisCliente_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

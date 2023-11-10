@@ -4,3 +4,9 @@ C:\Users\jhoan\source\repos\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.csproj.A
 C:\Users\jhoan\source\repos\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.csproj.CoreCompileInputs.cache
 C:\Users\jhoan\source\repos\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.dll
 C:\Users\jhoan\source\repos\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.pdb
+C:\Users\Aprendiz\Documents\Trabajo\Minimarket\CL_CapaEntidades\bin\Debug\CL_CapaEntidades.dll
+C:\Users\Aprendiz\Documents\Trabajo\Minimarket\CL_CapaEntidades\bin\Debug\CL_CapaEntidades.pdb
+C:\Users\Aprendiz\Documents\Trabajo\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.csproj.AssemblyReference.cache
+C:\Users\Aprendiz\Documents\Trabajo\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\Aprendiz\Documents\Trabajo\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.dll
+C:\Users\Aprendiz\Documents\Trabajo\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.pdb

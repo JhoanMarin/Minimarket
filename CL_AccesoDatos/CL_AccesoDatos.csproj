@@ -100,6 +100,7 @@
     <Compile Include="DA_Categoria.cs" />
     <Compile Include="DA_Cliente.cs" />
     <Compile Include="DA_Minimarket.cs" />
+    <Compile Include="DA_Producto.cs" />
     <Compile Include="Da_Proveedor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -21,5 +21,10 @@ namespace WF_Minimarket
         {
 
         }
+
+        private void EmpleadoRegistrar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -40,6 +40,16 @@ namespace WF_Minimarket
                 MessageBox.Show("Fallo en la insercion");
 
         }
+
+        private void gbRegistroProveedor_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ProveedorRegistrar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

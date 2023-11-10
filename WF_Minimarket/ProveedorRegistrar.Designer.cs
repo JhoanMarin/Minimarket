@@ -71,6 +71,7 @@
             this.gbRegistroProveedor.TabIndex = 1;
             this.gbRegistroProveedor.TabStop = false;
             this.gbRegistroProveedor.Text = "Registro Proveedor";
+            this.gbRegistroProveedor.Enter += new System.EventHandler(this.gbRegistroProveedor_Enter);
             // 
             // txtRegisDepartamentoProveedor
             // 
@@ -210,6 +211,7 @@
             this.Controls.Add(this.gbRegistroProveedor);
             this.Name = "ProveedorRegistrar";
             this.Text = "ProveedorRegistrar";
+            this.Load += new System.EventHandler(this.ProveedorRegistrar_Load);
             this.gbRegistroProveedor.ResumeLayout(false);
             this.gbRegistroProveedor.PerformLayout();
             this.ResumeLayout(false);

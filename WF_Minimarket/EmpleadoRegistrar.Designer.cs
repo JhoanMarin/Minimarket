@@ -231,6 +231,7 @@
             this.Controls.Add(this.gbRegistroEmpleado);
             this.Name = "EmpleadoRegistrar";
             this.Text = "EmpleadoRegistrar";
+            this.Load += new System.EventHandler(this.EmpleadoRegistrar_Load);
             this.gbRegistroEmpleado.ResumeLayout(false);
             this.gbRegistroEmpleado.PerformLayout();
             this.ResumeLayout(false);

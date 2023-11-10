@@ -67,7 +67,7 @@ idproducto int AUTO_INCREMENT,
 nombre varchar (50) not null,
 marca varchar (50) not null,
 Stock int not null default 0,
-pvp MONEY NOT NULL,
+pvp DECIMAL (10,2) NOT NULL,
 
 descripcion varchar (200) null,
 unidadMedida ENUM('UND','gr'),

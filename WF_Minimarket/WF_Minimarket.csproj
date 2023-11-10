@@ -100,6 +100,12 @@
     <Compile Include="MinimarketRegistrar.Designer.cs">
       <DependentUpon>MinimarketRegistrar.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProductoRegistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductoRegistrar.Designer.cs">
+      <DependentUpon>ProductoRegistrar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProveedorActualizar.cs">
@@ -140,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MinimarketRegistrar.resx">
       <DependentUpon>MinimarketRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductoRegistrar.resx">
+      <DependentUpon>ProductoRegistrar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

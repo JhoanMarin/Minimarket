@@ -41,6 +41,9 @@
             this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrarClienteToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.actualizarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.productoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.registrarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.actualizarToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +53,8 @@
             this.minimarketToolStripMenuItem,
             this.categoriaToolStripMenuItem,
             this.proveedorToolStripMenuItem,
-            this.clienteToolStripMenuItem});
+            this.clienteToolStripMenuItem,
+            this.productoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(852, 24);
@@ -93,14 +97,14 @@
             // registrarcategoriaToolStripMenuItem1
             // 
             this.registrarcategoriaToolStripMenuItem1.Name = "registrarcategoriaToolStripMenuItem1";
-            this.registrarcategoriaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.registrarcategoriaToolStripMenuItem1.Size = new System.Drawing.Size(126, 22);
             this.registrarcategoriaToolStripMenuItem1.Text = "Registrar";
             this.registrarcategoriaToolStripMenuItem1.Click += new System.EventHandler(this.registrarcategoriaToolStripMenuItem1_Click);
             // 
             // actualizarToolStripMenuItem1
             // 
             this.actualizarToolStripMenuItem1.Name = "actualizarToolStripMenuItem1";
-            this.actualizarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.actualizarToolStripMenuItem1.Size = new System.Drawing.Size(126, 22);
             this.actualizarToolStripMenuItem1.Text = "Actualizar";
             this.actualizarToolStripMenuItem1.Click += new System.EventHandler(this.actualizarToolStripMenuItem1_Click);
             // 
@@ -116,14 +120,14 @@
             // registrarProveedorToolStripMenuItem2
             // 
             this.registrarProveedorToolStripMenuItem2.Name = "registrarProveedorToolStripMenuItem2";
-            this.registrarProveedorToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.registrarProveedorToolStripMenuItem2.Size = new System.Drawing.Size(126, 22);
             this.registrarProveedorToolStripMenuItem2.Text = "Registrar";
             this.registrarProveedorToolStripMenuItem2.Click += new System.EventHandler(this.registrarProveedorToolStripMenuItem2_Click);
             // 
             // actualizarToolStripMenuItem2
             // 
             this.actualizarToolStripMenuItem2.Name = "actualizarToolStripMenuItem2";
-            this.actualizarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.actualizarToolStripMenuItem2.Size = new System.Drawing.Size(126, 22);
             this.actualizarToolStripMenuItem2.Text = "Actualizar";
             this.actualizarToolStripMenuItem2.Click += new System.EventHandler(this.actualizarToolStripMenuItem2_Click);
             // 
@@ -139,7 +143,7 @@
             // registrarClienteToolStripMenuItem3
             // 
             this.registrarClienteToolStripMenuItem3.Name = "registrarClienteToolStripMenuItem3";
-            this.registrarClienteToolStripMenuItem3.Size = new System.Drawing.Size(126, 22);
+            this.registrarClienteToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
             this.registrarClienteToolStripMenuItem3.Text = "Registrar";
             this.registrarClienteToolStripMenuItem3.Click += new System.EventHandler(this.registrarClienteToolStripMenuItem3_Click);
             // 
@@ -149,6 +153,29 @@
             this.actualizarToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
             this.actualizarToolStripMenuItem3.Text = "Actualizar";
             this.actualizarToolStripMenuItem3.Click += new System.EventHandler(this.actualizarToolStripMenuItem3_Click);
+            // 
+            // productoToolStripMenuItem
+            // 
+            this.productoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.registrarToolStripMenuItem1,
+            this.actualizarToolStripMenuItem4});
+            this.productoToolStripMenuItem.Name = "productoToolStripMenuItem";
+            this.productoToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
+            this.productoToolStripMenuItem.Text = "Producto";
+            this.productoToolStripMenuItem.Click += new System.EventHandler(this.productoToolStripMenuItem_Click);
+            // 
+            // registrarToolStripMenuItem1
+            // 
+            this.registrarToolStripMenuItem1.Name = "registrarToolStripMenuItem1";
+            this.registrarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.registrarToolStripMenuItem1.Text = "Registrar";
+            this.registrarToolStripMenuItem1.Click += new System.EventHandler(this.registrarToolStripMenuItem1_Click);
+            // 
+            // actualizarToolStripMenuItem4
+            // 
+            this.actualizarToolStripMenuItem4.Name = "actualizarToolStripMenuItem4";
+            this.actualizarToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
+            this.actualizarToolStripMenuItem4.Text = "Actualizar";
             // 
             // Form1
             // 
@@ -182,6 +209,9 @@
         private System.Windows.Forms.ToolStripMenuItem clienteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registrarClienteToolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem actualizarToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem productoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem registrarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem actualizarToolStripMenuItem4;
     }
 }
 

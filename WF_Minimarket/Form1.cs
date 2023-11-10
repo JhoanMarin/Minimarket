@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CL_CapaEntidades;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -95,5 +96,20 @@ namespace WF_Minimarket
             cliente.Show();
             cliente.WindowState = FormWindowState.Maximized;
         }
+
+        private void productoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void registrarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ProductoRegistrar Producto = new ProductoRegistrar();
+            Producto.MdiParent = this;
+
+            Producto.Show();
+            Producto.WindowState = FormWindowState.Maximized;
+        }
+    }
     }
 }

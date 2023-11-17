@@ -28,7 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtRegisDescripcionProducto = new System.Windows.Forms.TextBox();
+            this.cmBoxUniMedi = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.btnRegisProducto = new System.Windows.Forms.Button();
             this.txtRegisPrecioProducto = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -40,11 +45,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.cmBoxCaProducto = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.cmBoxUniMedi = new System.Windows.Forms.ComboBox();
-            this.txtRegisDescripcionProducto = new System.Windows.Forms.TextBox();
+            this.errorProRegisProducto = new System.Windows.Forms.ErrorProvider(this.components);
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProRegisProducto)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -71,6 +74,44 @@
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Registro Producto";
+            // 
+            // txtRegisDescripcionProducto
+            // 
+            this.txtRegisDescripcionProducto.Location = new System.Drawing.Point(506, 207);
+            this.txtRegisDescripcionProducto.Name = "txtRegisDescripcionProducto";
+            this.txtRegisDescripcionProducto.Size = new System.Drawing.Size(210, 26);
+            this.txtRegisDescripcionProducto.TabIndex = 35;
+            // 
+            // cmBoxUniMedi
+            // 
+            this.cmBoxUniMedi.FormattingEnabled = true;
+            this.cmBoxUniMedi.Items.AddRange(new object[] {
+            "UND",
+            "gr"});
+            this.cmBoxUniMedi.Location = new System.Drawing.Point(560, 134);
+            this.cmBoxUniMedi.Name = "cmBoxUniMedi";
+            this.cmBoxUniMedi.Size = new System.Drawing.Size(162, 28);
+            this.cmBoxUniMedi.TabIndex = 34;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(390, 209);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(110, 22);
+            this.label7.TabIndex = 33;
+            this.label7.Text = "Descripcion:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(390, 140);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(164, 22);
+            this.label6.TabIndex = 32;
+            this.label6.Text = "Unidad de Medida:";
             // 
             // btnRegisProducto
             // 
@@ -168,44 +209,11 @@
             this.cmBoxCaProducto.Name = "cmBoxCaProducto";
             this.cmBoxCaProducto.Size = new System.Drawing.Size(133, 28);
             this.cmBoxCaProducto.TabIndex = 21;
+            this.cmBoxCaProducto.SelectedIndexChanged += new System.EventHandler(this.cmBoxCaProducto_SelectedIndexChanged);
             // 
-            // label6
+            // errorProRegisProducto
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(390, 140);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(164, 22);
-            this.label6.TabIndex = 32;
-            this.label6.Text = "Unidad de Medida:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(390, 209);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(110, 22);
-            this.label7.TabIndex = 33;
-            this.label7.Text = "Descripcion:";
-            // 
-            // cmBoxUniMedi
-            // 
-            this.cmBoxUniMedi.FormattingEnabled = true;
-            this.cmBoxUniMedi.Items.AddRange(new object[] {
-            "UND",
-            "gr"});
-            this.cmBoxUniMedi.Location = new System.Drawing.Point(560, 134);
-            this.cmBoxUniMedi.Name = "cmBoxUniMedi";
-            this.cmBoxUniMedi.Size = new System.Drawing.Size(162, 28);
-            this.cmBoxUniMedi.TabIndex = 34;
-            // 
-            // txtRegisDescripcionProducto
-            // 
-            this.txtRegisDescripcionProducto.Location = new System.Drawing.Point(506, 207);
-            this.txtRegisDescripcionProducto.Name = "txtRegisDescripcionProducto";
-            this.txtRegisDescripcionProducto.Size = new System.Drawing.Size(210, 26);
-            this.txtRegisDescripcionProducto.TabIndex = 35;
+            this.errorProRegisProducto.ContainerControl = this;
             // 
             // ProductoRegistrar
             // 
@@ -218,6 +226,7 @@
             this.Load += new System.EventHandler(this.ProductoRegistrar_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProRegisProducto)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -240,5 +249,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox cmBoxUniMedi;
         private System.Windows.Forms.TextBox txtRegisDescripcionProducto;
+        private System.Windows.Forms.ErrorProvider errorProRegisProducto;
     }
 }

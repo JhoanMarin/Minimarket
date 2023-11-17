@@ -30,6 +30,8 @@
         {
             this.dgvConsultar = new System.Windows.Forms.DataGridView();
             this.gpActualizarProveedor = new System.Windows.Forms.GroupBox();
+            this.txtAcCiudadProveedor = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.BtnActualizarProveedor = new System.Windows.Forms.Button();
             this.txtAcCorreoProveedor = new System.Windows.Forms.TextBox();
@@ -44,8 +46,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtAcRazonSocialProveedor = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtAcCiudadProveedor = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConsultar)).BeginInit();
             this.gpActualizarProveedor.SuspendLayout();
             this.SuspendLayout();
@@ -87,6 +87,24 @@
             this.gpActualizarProveedor.TabIndex = 2;
             this.gpActualizarProveedor.TabStop = false;
             this.gpActualizarProveedor.Text = "groupBox2";
+            // 
+            // txtAcCiudadProveedor
+            // 
+            this.txtAcCiudadProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAcCiudadProveedor.Location = new System.Drawing.Point(122, 250);
+            this.txtAcCiudadProveedor.Name = "txtAcCiudadProveedor";
+            this.txtAcCiudadProveedor.Size = new System.Drawing.Size(233, 26);
+            this.txtAcCiudadProveedor.TabIndex = 29;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(46, 253);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(59, 20);
+            this.label8.TabIndex = 28;
+            this.label8.Text = "Ciudad";
             // 
             // label7
             // 
@@ -218,24 +236,6 @@
             this.label1.Size = new System.Drawing.Size(103, 20);
             this.label1.TabIndex = 14;
             this.label1.Text = "Razón Social";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(46, 253);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(59, 20);
-            this.label8.TabIndex = 28;
-            this.label8.Text = "Ciudad";
-            // 
-            // txtAcCiudadProveedor
-            // 
-            this.txtAcCiudadProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAcCiudadProveedor.Location = new System.Drawing.Point(122, 250);
-            this.txtAcCiudadProveedor.Name = "txtAcCiudadProveedor";
-            this.txtAcCiudadProveedor.Size = new System.Drawing.Size(233, 26);
-            this.txtAcCiudadProveedor.TabIndex = 29;
             // 
             // ProveedorActualizar
             // 

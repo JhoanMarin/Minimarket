@@ -67,7 +67,7 @@
             this.gbRegistroProveedor.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbRegistroProveedor.Location = new System.Drawing.Point(5, 6);
             this.gbRegistroProveedor.Name = "gbRegistroProveedor";
-            this.gbRegistroProveedor.Size = new System.Drawing.Size(790, 438);
+            this.gbRegistroProveedor.Size = new System.Drawing.Size(790, 420);
             this.gbRegistroProveedor.TabIndex = 1;
             this.gbRegistroProveedor.TabStop = false;
             this.gbRegistroProveedor.Text = "Registro Proveedor";

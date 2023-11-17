@@ -110,6 +110,11 @@ namespace WF_Minimarket
             Producto.Show();
             Producto.WindowState = FormWindowState.Maximized;
         }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     }
-}
+

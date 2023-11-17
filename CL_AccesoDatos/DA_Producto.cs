@@ -7,9 +7,25 @@ using System.Threading.Tasks;
 
 namespace CL_AccesoDatos
 {
-    internal class DA_Producto : DA_Base
+    public class DA_Producto : DA_Base
     {
-       
+        public static bool InsertarProducto(Producto objProducto)
+        {
+            String strSQL = "Insert into producto " +
+                    "(nombre ,marca,Stock,pvp,descripcion,unidadMedida,idcategoria   ) VALUES (";
+            strSQL += "'" + objProducto.nombre + "',";
+            strSQL += "'" + objProducto.marca + "',";
+            strSQL += "" + objProducto.Stock + ",";
+            strSQL += "" + objProducto.pvp + ",";
+            strSQL += "'" + objProducto.descripcion + "',";
+            strSQL += "'" + objProducto.unidadMedida + "',";
+            strSQL += "'" + objProducto.idcategoria + ");";
+            
+
+            return RealizarTransaccion(strSQL);
+
+
+        }
 
     }
 }

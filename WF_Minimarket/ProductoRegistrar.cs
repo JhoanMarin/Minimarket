@@ -99,21 +99,24 @@ namespace WF_Minimarket
             objProducto.unidadMedida= cmBoxUniMedi.SelectedItem.ToString();
             objProducto.idcategoria= (int)cmBoxCaProducto.SelectedValue;
 
-            }
+            
 
             //SACAMOS EL VALOR DEL 'idcategoria' y lo convertimos a INT
             //porque estamos recibiendo un String del combobox de la siguiente forma
             //(int)cmBoxCaProducto.SelectedValue;
 
-            if (CN_Producto.InsertarProducto(objProducto)) 
-            {
-                MessageBox.Show("RegistroExitoso");
+                    if (CN_Producto.InsertarProducto(objProducto)) 
+                    {
+                        MessageBox.Show("RegistroExitoso");
+
+                    }
+                    else
+                    MessageBox.Show("Fallo en el Regitro");
 
             }
+
             else
-                MessageBox.Show("Fallo en el Regitro");
-
-
+                MessageBox.Show("Fallo en la insercion");
 
         }
        

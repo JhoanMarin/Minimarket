@@ -44,7 +44,7 @@ namespace CL_AccesoDatos
             string strSQL = "Update categoria set ";
 
             strSQL += "nombre = '" + categoria.nombre + "',";
-            strSQL += "descripción ='" + categoria.descripcion + "'WHERE idCategoria = '" + categoria.idCategoria + "';";
+            strSQL += "descripcion ='" + categoria.descripcion + "'WHERE idCategoria = '" + categoria.idCategoria + "';";
 
             return RealizarTransaccion(strSQL);
         }

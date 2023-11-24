@@ -93,5 +93,10 @@ namespace WF_Minimarket
 
             
         }
+
+        private void gbRegistroCategoria_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -54,6 +54,7 @@
             this.gbRegistroCategoria.TabIndex = 3;
             this.gbRegistroCategoria.TabStop = false;
             this.gbRegistroCategoria.Text = "Registrar Categoria";
+            this.gbRegistroCategoria.Enter += new System.EventHandler(this.gbRegistroCategoria_Enter);
             // 
             // btnRegistrarCategoria
             // 

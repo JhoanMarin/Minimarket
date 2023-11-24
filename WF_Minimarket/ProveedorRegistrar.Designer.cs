@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.gbRegistroProveedor = new System.Windows.Forms.GroupBox();
             this.txtRegisDepartamentoProveedor = new System.Windows.Forms.TextBox();
             this.txtRegisCiudadProveedor = new System.Windows.Forms.TextBox();
@@ -44,7 +45,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtRegisNITProveedor = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.errorProveeRegis = new System.Windows.Forms.ErrorProvider(this.components);
             this.gbRegistroProveedor.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProveeRegis)).BeginInit();
             this.SuspendLayout();
             // 
             // gbRegistroProveedor
@@ -67,7 +70,7 @@
             this.gbRegistroProveedor.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbRegistroProveedor.Location = new System.Drawing.Point(5, 6);
             this.gbRegistroProveedor.Name = "gbRegistroProveedor";
-            this.gbRegistroProveedor.Size = new System.Drawing.Size(790, 420);
+            this.gbRegistroProveedor.Size = new System.Drawing.Size(835, 420);
             this.gbRegistroProveedor.TabIndex = 1;
             this.gbRegistroProveedor.TabStop = false;
             this.gbRegistroProveedor.Text = "Registro Proveedor";
@@ -203,17 +206,22 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "NIT:";
             // 
+            // errorProveeRegis
+            // 
+            this.errorProveeRegis.ContainerControl = this;
+            // 
             // ProveedorRegistrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(852, 450);
             this.Controls.Add(this.gbRegistroProveedor);
             this.Name = "ProveedorRegistrar";
             this.Text = "ProveedorRegistrar";
             this.Load += new System.EventHandler(this.ProveedorRegistrar_Load);
             this.gbRegistroProveedor.ResumeLayout(false);
             this.gbRegistroProveedor.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProveeRegis)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -236,5 +244,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtRegisNITProveedor;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ErrorProvider errorProveeRegis;
     }
 }

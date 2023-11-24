@@ -16,3 +16,9 @@ C:\Users\Aprendiz\Desktop\CopyJH\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEn
 C:\Users\Aprendiz\Desktop\CopyJH\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.csproj.CoreCompileInputs.cache
 C:\Users\Aprendiz\Desktop\CopyJH\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.dll
 C:\Users\Aprendiz\Desktop\CopyJH\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.pdb
+C:\Users\Aprendiz\Documents\Minimarket\CL_CapaEntidades\bin\Debug\CL_CapaEntidades.dll
+C:\Users\Aprendiz\Documents\Minimarket\CL_CapaEntidades\bin\Debug\CL_CapaEntidades.pdb
+C:\Users\Aprendiz\Documents\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.csproj.AssemblyReference.cache
+C:\Users\Aprendiz\Documents\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\Aprendiz\Documents\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.dll
+C:\Users\Aprendiz\Documents\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.pdb

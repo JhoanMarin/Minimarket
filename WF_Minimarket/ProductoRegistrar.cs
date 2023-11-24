@@ -65,7 +65,7 @@ namespace WF_Minimarket
             if (!Expresionprecio.IsMatch(txtRegisPrecioProducto.Text))
             {
 
-                errorProRegisProducto.SetError(txtRegisPrecioProducto, "Error en el Stock");
+                errorProRegisProducto.SetError(txtRegisPrecioProducto, "Error en el Precio");
                 bandera = 0;
             }
 

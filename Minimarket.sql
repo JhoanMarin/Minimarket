@@ -67,7 +67,7 @@ idproducto int AUTO_INCREMENT,
 nombre varchar (50) not null,
 marca varchar (50) not null,
 Stock int not null default 0,
-pvp DECIMAL (10,2) NOT NULL,
+pvp MONEY NOT NULL,
 
 descripcion varchar (200) null,
 unidadMedida ENUM('UND','gr'),
@@ -77,6 +77,18 @@ idcategoria int not null,
 constraint pk_producto primary key (idproducto),
 constraint unico_nombre_producto UNIQUE (nombre),
 constraint fk_categoria foreign key (idcategoria) References categoria (idcategoria));
+
+ALTER TABLE producto MODIFY COLUMN pvp Decimal(10,2);
+
+Insert into producto (nombre ,marca,Stock,pvp,descripcion,unidadMedida,idcategoria) VALUES (
+    'Cerveza Corona', 'Corona', 200, 6000, 'Cerveza Exportada', 'UND',1
+);
+
+select * from producto;
+    
+
+                
+
 
 create table empleado(
 
@@ -178,3 +190,4 @@ SELECT*from cliente;
 UPDATE categoria set nombre= "Carnicos", 
 descripcion="Productos provenientes del sacrificio animal"
 where idcategoria=1;
+Delete From categoria where idcategoria>=4 and idcategoria<=7;

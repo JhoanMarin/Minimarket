@@ -11,15 +11,15 @@ namespace CL_AccesoDatos
     {
         public static bool InsertarProducto(Producto objProducto)
         {
-            String strSQL = "Insert into producto " +
-                    "(nombre ,marca,Stock,pvp,descripcion,unidadMedida,idcategoria   ) VALUES (";
+            String strSQL = "Insert into producto" +
+                    "(nombre ,marca,Stock,pvp,descripcion,unidadMedida,idcategoria) VALUES (";
             strSQL += "'" + objProducto.nombre + "',";
             strSQL += "'" + objProducto.marca + "',";
             strSQL += "" + objProducto.Stock + ",";
             strSQL += "" + objProducto.pvp + ",";
             strSQL += "'" + objProducto.descripcion + "',";
             strSQL += "'" + objProducto.unidadMedida + "',";
-            strSQL += "'" + objProducto.idcategoria + ");";
+            strSQL += "" + objProducto.idcategoria + ");";
             
 
             return RealizarTransaccion(strSQL);

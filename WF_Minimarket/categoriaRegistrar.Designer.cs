@@ -28,13 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.gbRegistroCategoria = new System.Windows.Forms.GroupBox();
             this.btnRegistrarCategoria = new System.Windows.Forms.Button();
             this.txtRegisDescripCategoria = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtRegisNombreCategoria = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.errorCateRegis = new System.Windows.Forms.ErrorProvider(this.components);
             this.gbRegistroCategoria.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorCateRegis)).BeginInit();
             this.SuspendLayout();
             // 
             // gbRegistroCategoria
@@ -97,6 +100,10 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre:";
             // 
+            // errorCateRegis
+            // 
+            this.errorCateRegis.ContainerControl = this;
+            // 
             // categoriaRegistrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -108,6 +115,7 @@
             this.Load += new System.EventHandler(this.categoriaRegistrar_Load);
             this.gbRegistroCategoria.ResumeLayout(false);
             this.gbRegistroCategoria.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorCateRegis)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -120,5 +128,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtRegisNombreCategoria;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ErrorProvider errorCateRegis;
     }
 }

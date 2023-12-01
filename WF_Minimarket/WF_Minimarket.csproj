@@ -120,6 +120,12 @@
     <Compile Include="ProveedorRegistrar.Designer.cs">
       <DependentUpon>ProveedorRegistrar.cs</DependentUpon>
     </Compile>
+    <Compile Include="RegistrarFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarFactura.Designer.cs">
+      <DependentUpon>RegistrarFactura.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CategoriaActualizar.resx">
       <DependentUpon>CategoriaActualizar.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProveedorRegistrar.resx">
       <DependentUpon>ProveedorRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarFactura.resx">
+      <DependentUpon>RegistrarFactura.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

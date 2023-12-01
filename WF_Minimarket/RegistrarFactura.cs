@@ -1,0 +1,29 @@
+﻿using CL_Capa_Negocio;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WF_Minimarket
+{
+    public partial class RegistrarFactura : Form
+    {
+        public RegistrarFactura()
+        {
+            InitializeComponent();
+        }
+
+        private void RegistrarFactura_Load(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            dt = CN_Categoria.ConsultarCategoria();
+
+           
+        }
+    }
+}

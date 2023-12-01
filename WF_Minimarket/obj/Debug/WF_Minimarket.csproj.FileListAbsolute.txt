@@ -277,3 +277,4 @@ C:\Users\Aprendiz\Documents\Minimarket\WF_Minimarket\obj\Debug\WF_Minimarket.csp
 C:\Users\Aprendiz\Documents\Minimarket\WF_Minimarket\obj\Debug\WF_Minimarket.csproj.CopyComplete
 C:\Users\Aprendiz\Documents\Minimarket\WF_Minimarket\obj\Debug\WF_Minimarket.exe
 C:\Users\Aprendiz\Documents\Minimarket\WF_Minimarket\obj\Debug\WF_Minimarket.pdb
+C:\Users\jhoan\OneDrive\Documentos\Minimarket\Minimarket\WF_Minimarket\obj\Debug\WF_Minimarket.RegistrarFactura.resources

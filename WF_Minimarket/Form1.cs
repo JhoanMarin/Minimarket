@@ -1,4 +1,5 @@
-﻿using CL_CapaEntidades;
+﻿using CL_Capa_Negocio;
+using CL_CapaEntidades;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -115,6 +116,20 @@ namespace WF_Minimarket
         {
 
         }
+
+        
+
+        private void registarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RegistrarFactura Factura = new RegistrarFactura();
+            Factura.MdiParent = this;
+
+            Factura.Show();
+            Factura.WindowState = FormWindowState.Maximized;
+
+
+        }
+
     }
     }
 
